@@ -1,0 +1,9 @@
+env: "local" # local, dev, prod
+storage_path: "./storage/storage.db"
+db_dsn: "postgres://username:password@localhost:5432/URLShortener?sslmode=disable"
+http_server:
+  address: "localhost:8080"
+  timeout: 4s
+  idle_timeout: 60s
+  user: "username"
+  password: "password"
